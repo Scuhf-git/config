@@ -4,6 +4,29 @@
 
 # Anything in here will be blocked from IC interactions, dead chat, and OOC
 [shared]
+"nigger" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"niglet" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"wigger" = "What even are you saying? Don't say this."
+"retard" = "This message is considered insensitive to people like you. Please treat others the way you want to be treated."
+"Wetback" = "What even?"
+"Spic" = "What even?"
+"Spick" = "What even?"
+"Spaz" = "What even?"
+"Spazz" = "What even?"
+"Enuch" = "Huh?"
+"He-she" = "Please use the appropriate term."
+"She-he" = "Please use the appropriate term."
+"Coon" = "Please use a more appropriate term."
+"Chink" = "Please use a more appropriate term."
+#"Nip" = "Please use a more appropriate term."
+"Raghead" = "Please use a more appropriate term."
+"Tar-baby" = "Please use a more appropriate term."
+"Downy" = "Use a more appropriate term, please."
+"Downie" = "Use a more appropriate term, please."
+"Downer" = "Use a more appropriate term, please."
+"Midget" = "Just short is fine."
+"furfag" = "You're literally on a furry server. Why? Go play TGstation or something."
+"autist" = "This is SS13, we're all autistic. If you have no issue with saying this, look in the mirror. You may be one too."
 "blockedinshared" = "This message is not allowed anywhere, please use a different weird test phrase."
 
 # Anything in here is blocked just from IC interactions, such as chat or names, but is allowed in dead chat and OOC
@@ -17,6 +40,14 @@
 
 # Anything in here will warn the player if said in IC, dead chat or OOC, the player must approve their message to send it
 [soft_shared]
+"ligger" = "You risk being banned if you use this term improperly."
+"ligga" = "You risk being banned if you use this term improperly."
+"nigga" = "You risk being banned if you use this term improperly. Be considerate of others."
+"rape" = "You risk being banned or prosecuted IC if you use this term capriciously."
+"faggot" = "This is considered insensitive to people like you, please use it carefully."
+"fag" = "This is considered insensitive to people like you, please use it carefully."
+"Gypsy" = "Please be considerate when using this term."
+"tranny" = "You risk being dealt with administratively if your use of this term offends."
 "testsoftblocks" = "You risk being banned if this term is used improperly."
 
 # Anything in here will warn the player if said ICly, but is allowed in dead chat and OOC, the player must approve their message to send it
