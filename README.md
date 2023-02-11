@@ -4,3 +4,5 @@ This is necessary because testing on localhost necessarily requires different co
 To facilitate this this repo is pulled into GameStaticFiles/config/ by TGS at the end of every round(via a helper EventScript).
 
 For players: You can make PRs here, but it is recommended to DM Zirok#7684 first.
+
+If you need to add a new config file ideally make a commit with the base config file copied over from the repo & then commit your changes on top of that.
