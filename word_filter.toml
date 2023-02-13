@@ -4,10 +4,22 @@
 
 # Anything in here will be blocked from IC interactions, dead chat, and OOC
 [shared]
+"ligger" = "Please find an alternative slur."
+"ligga" = "Please find an alternative slur."
 "nigger" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
 "niglet" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"n!ga" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"n!ger" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"n!gga" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"n!gger" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"n1ga" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"n1gga" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
+"niger" = "If you're playing this game, in all likelihood you're white. Please help make the server a better place and don't say this."
 "wigger" = "What even are you saying? Don't say this."
 "retard" = "This message is considered insensitive to people like you. Please treat others the way you want to be treated."
+"retarded" = "This message is considered insensitive to people like you. Please treat others the way you want to be treated."
+"tard" = "This message is considered insensitive to people like you. Please treat others the way you want to be treated."
+"tarded" = "This message is considered insensitive to people like you. Please treat others the way you want to be treated."
 "Wetback" = "What even?"
 "Spic" = "What even?"
 "Spick" = "What even?"
@@ -18,7 +30,7 @@
 "She-he" = "Please use the appropriate term."
 "Coon" = "Please use a more appropriate term."
 "Chink" = "Please use a more appropriate term."
-#"Nip" = "Please use a more appropriate term."
+"Nip" = "Please use a more appropriate term."
 "Raghead" = "Please use a more appropriate term."
 "Tar-baby" = "Please use a more appropriate term."
 "Downy" = "Use a more appropriate term, please."
@@ -26,32 +38,48 @@
 "Downer" = "Use a more appropriate term, please."
 "Midget" = "Just short is fine."
 "furfag" = "You're literally on a furry server. Why? Go play TGstation or something."
+"furfaggot" = "You're literally on a furry server. Why? Go play TGstation or something."
+"furfaggit" = "You're literally on a furry server. Why? Go play TGstation or something."
+"kike" = "You're literally on a furry server. Why? Go play TGstation or something."
 "autist" = "This is SS13, we're all autistic. If you have no issue with saying this, look in the mirror. You may be one too."
+"nigga" = "You risk being banned if you use this term improperly. Be considerate of others."
+"Gypsy" = "Please be considerate when using this term."
+"tranny" = "You risk being dealt with administratively if your use of this term offends."
 "blockedinshared" = "This message is not allowed anywhere, please use a different weird test phrase."
 
 # Anything in here is blocked just from IC interactions, such as chat or names, but is allowed in dead chat and OOC
 [ic]
+"antag" = "Please find an alternative phrase."
+"Deathsquad" = "This is not allowed to be said in-character. Please refer to them by whatever name you see first, such as 'Code Delta ERT'"
+"tot" = "Please refer to these as Syndicate agents."
+"Tatortot" = "Please refer to these as Syndicate agents."
+"Tatertot" = "Please refer to these as Syndicate agents."
 "blockedinic" = "This message is not allowed IC, please use a different weird test phrase."
 
 # Anything in here is blocked from all IC interactions *except* PDAs.
 # On /tg/, netspeak is OK in PDAs.
 [ic_outside_pda]
+":3" =
+":)" =
+":)" =
+"o_o" =
+"0_0" =
+">_>" =
+"<_<" =
 "<(0_0<)" = "Kirby dancing is strictly prohibited on this server."
 
 # Anything in here will warn the player if said in IC, dead chat or OOC, the player must approve their message to send it
 [soft_shared]
-"ligger" = "You risk being banned if you use this term improperly."
-"ligga" = "You risk being banned if you use this term improperly."
-"nigga" = "You risk being banned if you use this term improperly. Be considerate of others."
 "rape" = "You risk being banned or prosecuted IC if you use this term capriciously."
 "faggot" = "This is considered insensitive to people like you, please use it carefully."
 "fag" = "This is considered insensitive to people like you, please use it carefully."
-"Gypsy" = "Please be considerate when using this term."
-"tranny" = "You risk being dealt with administratively if your use of this term offends."
+"fagg" = "This is considered insensitive to people like you, please use it carefully."
 "testsoftblocks" = "You risk being banned if this term is used improperly."
 
 # Anything in here will warn the player if said ICly, but is allowed in dead chat and OOC, the player must approve their message to send it
 [soft_ic]
+"Changeling" = "These are not allowed to be referred to in-character unless you hear it already. Expect to be black-bagged if you bring it up."
+"ling" = "These are not allowed to be referred to in-character unless you hear it already. Expect to be black-bagged if you bring it up."
 "testsofterblocks" = "This term is commonly considered OOC, only use it with context."
 
 # Anything in here will warn the player if said ICly *except* PDAs, the player must approve their message to send it
