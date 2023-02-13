@@ -59,13 +59,12 @@
 # Anything in here is blocked from all IC interactions *except* PDAs.
 # On /tg/, netspeak is OK in PDAs.
 [ic_outside_pda]
-":3" =
-":)" =
-":)" =
-"o_o" =
-"0_0" =
-">_>" =
-"<_<" =
+":3" = "Netspeak not allowed in-character."
+":)" = "Netspeak not allowed in-character."
+"o_o" = "Netspeak not allowed in-character."
+"0_0" = "Netspeak not allowed in-character."
+">_>" = "Netspeak not allowed in-character."
+"<_<" = "Netspeak not allowed in-character."
 "<(0_0<)" = "Kirby dancing is strictly prohibited on this server."
 
 # Anything in here will warn the player if said in IC, dead chat or OOC, the player must approve their message to send it
