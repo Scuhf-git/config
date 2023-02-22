@@ -278,7 +278,7 @@ CHECK_RANDOMIZER
 WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-RULESURL https://docs.google.com/document/d/1UFV2zNnApvolFLuxk8rxzLFNEXdLvaOw9JtbdkU135k/edit?usp=sharing
+RULESURL https://docs.google.com/document/d/1UFV2zNnApvolFLuxk8rxzLFNEXdLvaOw9JtbdkU135k/edit
 
 ## Github address
 GITHUBURL https://github.com/Bubberstation/Bubberstation
