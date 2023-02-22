@@ -102,7 +102,7 @@
 
 [CLOWN]
 "Playtime Requirements" = 0
-"Required Account Age" = 0
+"Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
 
@@ -113,7 +113,7 @@
 "Total Positions" = 2
 
 [CORRECTIONS_OFFICER]
-"Playtime Requirements" = 150
+"Playtime Requirements" = 450
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -125,7 +125,7 @@
 "Total Positions" = 2
 
 [CUSTOMS_AGENT]
-"Playtime Requirements" = 180
+"Playtime Requirements" = 360
 "Required Account Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -137,7 +137,7 @@
 "Total Positions" = 3
 
 [DETECTIVE]
-"Playtime Requirements" = 120
+"Playtime Requirements" = 300
 "Required Account Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -185,8 +185,8 @@
 "Total Positions" = 5
 
 [MIME]
-"Playtime Requirements" = 120
-"Required Account Age" = 0
+"Playtime Requirements" = 0
+"Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
 
@@ -197,7 +197,7 @@
 "Total Positions" = 1
 
 [ORDERLY]
-"Playtime Requirements" = 180
+"Playtime Requirements" = 360
 "Required Account Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -239,7 +239,7 @@
 "Total Positions" = 3
 
 [SCIENCE_GUARD]
-"Playtime Requirements" = 180
+"Playtime Requirements" = 360
 "Required Account Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -251,7 +251,7 @@
 "Total Positions" = 5
 
 [SECURITY_MEDIC]
-"Playtime Requirements" = 180
+"Playtime Requirements" = 360
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
