@@ -53,6 +53,7 @@
 
 		"Malfunctioning AI": {
 			"weight": 3,
+			"cost": 18,
 			"minimum_required_age": 14
 		},
 
@@ -63,18 +64,21 @@
 
 		"Nuclear Assault": {
 			"weight": 1,
+			"cost": 14,
 			"minimum_required_age": 14,
 			"minimum_round_time": 27000
 		},
 
 		"Blob": {
 			"weight": 1,
+			"cost": 12,
 			"minimum_required_age": 14,
 			"minimum_round_time": 27000
 		},
 
 		"Blob Infection": {
 			"weight": 1,
+			"cost": 12,
 			"minimum_required_age": 14,
 			"minimum_round_time": 27000
 		},
@@ -103,6 +107,7 @@
 
 		"Space Ninja": {
 			"weight": 4,
+			"cost": 12,
 			"minimum_required_age": 14
 		},
 
