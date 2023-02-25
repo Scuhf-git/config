@@ -2,46 +2,10 @@
 	"Dynamic": {},
 	"Roundstart": {
 		"Traitors": {
-			"cost": 7,
+			"cost": 8,
 			"scaling_cost": 9,
-			"weight": 0,
-			"required_candidates": 1,
-			"minimum_required_age": 14,
-			"requirements": [
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10,
-				10
-			],
-			"antag_cap": {
-				"denominator": 24
-			},
-			"protected_roles": [
-				"Prisoner",
-				"Blueshield",
-				"Corrections Officer",
-				"Security Officer",
-				"Warden",
-				"Detective",
-				"Security Medic",
-				"Head of Security",
-				"Captain",
-				"Nanotrasen Consultant",
-				"Head of Personnel",
-				"Chief Engineer",
-				"Chief Medical Officer",
-				"Research Director",
-				"Quartermaster"
-			],
-			"restricted_roles": [
-				"Cyborg"
-			]
+			"weight": 8,
+			"minimum_required_age": 14
 		},
 
 		"Blood Brothers": {
@@ -81,12 +45,14 @@
 
 	"Midround": {
 		"Syndicate Sleeper Agent": {
-			"weight": 9,
+			"weight": 7,
+			"cost": 6,
 			"minimum_required_age": 14
 		},
 
 		"Malfunctioning AI": {
 			"weight": 3,
+			"cost": 18,
 			"minimum_required_age": 14
 		},
 
@@ -97,26 +63,29 @@
 
 		"Nuclear Assault": {
 			"weight": 1,
+			"cost": 14,
 			"minimum_required_age": 14,
-			"minimum_round_time": 42000
+			"minimum_round_time": 27000
 		},
 
 		"Blob": {
 			"weight": 1,
+			"cost": 12,
 			"minimum_required_age": 14,
-			"minimum_round_time": 42000
+			"minimum_round_time": 27000
 		},
 
 		"Blob Infection": {
 			"weight": 1,
+			"cost": 12,
 			"minimum_required_age": 14,
-			"minimum_round_time": 42000
+			"minimum_round_time": 27000
 		},
 
 		"Alien Infestation": {
 			"weight": 0,
 			"minimum_required_age": 14,
-			"minimum_round_time": 42000
+			"minimum_round_time": 27000
 		},
 
 		"Nightmare": {
@@ -127,7 +96,7 @@
 		"Space Dragon": {
 			"weight": 2,
 			"minimum_required_age": 14,
-			"minimum_round_time": 42000
+			"minimum_round_time": 27000
 		},
 
 		"Abductors": {
@@ -137,29 +106,41 @@
 
 		"Space Ninja": {
 			"weight": 4,
+			"cost": 12,
 			"minimum_required_age": 14
 		},
 
 		"Spiders": {
 			"weight": 5,
 			"minimum_required_age": 14
+		},
+		"Obsessed": {
+			"cost": 5
+		},
+		"Lone Infiltrator": {
+			"cost": 7
+		},
+		"Drifting Contractor": {
+			"cost": 7
 		}
 	},
 
 	"Latejoin": {
 		"Syndicate Infiltrator": {
 			"weight": 9,
+			"cost": 6,
 			"minimum_required_age": 14
 		},
 
 		"Provocateur": {
 			"weight": 1,
 			"minimum_required_age": 14,
-			"minimum_round_time": 42000
+			"minimum_round_time": 27000
 		},
 
 		"Heretic Smuggler": {
 			"weight": 5,
+			"cost": 8
 			"minimum_required_age": 14
 		}
 	}
