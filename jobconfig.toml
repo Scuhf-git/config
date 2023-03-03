@@ -31,7 +31,7 @@
 [ATMOSPHERIC_TECHNICIAN]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 2
+"Spawn Positions" = 1
 "Total Positions" = 2
 
 [BARBER]
@@ -85,7 +85,7 @@
 [CHEMIST]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 2
+"Spawn Positions" = 1
 "Total Positions" = 2
 
 [CHIEF_ENGINEER]
@@ -139,8 +139,8 @@
 [DETECTIVE]
 "Playtime Requirements" = 300
 "Required Account Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
+"Spawn Positions" = 1
+"Total Positions" = 1
 
 [ENGINEERING_GUARD]
 "Playtime Requirements" = 180
@@ -151,7 +151,7 @@
 [GENETICIST]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 2
+"Spawn Positions" = 1
 "Total Positions" = 2
 
 [HEAD_OF_PERSONNEL]
@@ -169,20 +169,20 @@
 [JANITOR]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 2
+"Spawn Positions" = 1
 "Total Positions" = 2
 
 [LAWYER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 2
+"Spawn Positions" = 1
 "Total Positions" = 2
 
 [MEDICAL_DOCTOR]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "Spawn Positions" = 3
-"Total Positions" = 3
+"Total Positions" = 4
 
 [MIME]
 "Playtime Requirements" = 0
@@ -235,7 +235,7 @@
 [ROBOTICIST]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
-"Spawn Positions" = 2
+"Spawn Positions" = 1
 "Total Positions" = 2
 
 [SCIENCE_GUARD]
@@ -272,7 +272,7 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "Spawn Positions" = 2
-"Total Positions" = 2
+"Total Positions" = 3
 
 [VANGUARD_OPERATIVE]
 "Playtime Requirements" = 400
@@ -289,11 +289,5 @@
 [WARDEN]
 "Playtime Requirements" = 600
 "Required Account Age" = 7
-"Spawn Positions" = 1
-"Total Positions" = 1
-
-[BLACKSMITH]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
 "Spawn Positions" = 1
 "Total Positions" = 1
