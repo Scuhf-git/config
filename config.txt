@@ -20,10 +20,10 @@ $include lua.txt
 # SERVERNAME Bubberstation
 
 ## Server tagline: This will appear right below the server's title.
-# SERVERTAGLINE An 18+ Server using Skyrat code, antags enabled, looking to create a fun, ERP-forward experience.
+# SERVERTAGLINE 18+ RP-focused action! Erratic or Erotic, take your pick!
 
-## Discord Link: This is the link to Skyrat's discord server
-# DISCORD_LINK https://discord.gg/hGpZ4Z3
+## Discord Link: This is the link to Bubberstation's discord server
+# DISCORD_LINK https://discord.gg/AvjrTqnqEx
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
@@ -77,14 +77,14 @@ USE_AGE_RESTRICTION_FOR_JOBS
 ## Unhash this to track player playtime in the database. Requires database to be enabled.
 USE_EXP_TRACKING
 ## Unhash this to enable playtime requirements for head jobs.
-USE_EXP_RESTRICTIONS_HEADS
+#USE_EXP_RESTRICTIONS_HEADS
 ## Unhash this to override head jobs' playtime requirements with this number of hours.
 ## Leave this commented out to use the values defined in the job datums. Values in the datums are stored as minutes.
 #USE_EXP_RESTRICTIONS_HEADS_HOURS 3
 ## Unhash this to change head jobs' playtime requirements so that they're based on department playtime, rather than crew playtime.
-USE_EXP_RESTRICTIONS_HEADS_DEPARTMENT
+#USE_EXP_RESTRICTIONS_HEADS_DEPARTMENT
 ## Unhash this to enable playtime requirements for certain non-head jobs, like Engineer and Scientist.
-USE_EXP_RESTRICTIONS_OTHER
+#USE_EXP_RESTRICTIONS_OTHER
 ## Allows admins to bypass job playtime requirements.
 #USE_EXP_RESTRICTIONS_ADMIN_BYPASS
 ## Unhash this to have intern tags automatically added to ID cards for station roles depending on the living hours of the player holding them.
@@ -278,7 +278,7 @@ CHECK_RANDOMIZER
 WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-RULESURL https://docs.google.com/document/d/1Q_32OBZzRdObupT0gSLNZk1q49ZrCDqdmPXk6ikLwYw/edit
+RULESURL https://docs.google.com/document/d/1UFV2zNnApvolFLuxk8rxzLFNEXdLvaOw9JtbdkU135k/edit
 
 ## Github address
 GITHUBURL https://github.com/Bubberstation/Bubberstation
@@ -314,7 +314,7 @@ INVOKE_YOUTUBEDL yt-dlp
 ## Jobs have specific "keys" tied to their in-game datums, those should sync up otherwise it will fail to load.
 ## Setting Total/Spawn Positions to -1 will open unlimited join slots for it.
 ## Playtime Requirements is in minutes, Required Account Age is in days.
-#LOAD_JOBS_FROM_TXT
+LOAD_JOBS_FROM_TXT
 
 ## Uncomment this to forbid admins from possessing the singularity.
 #FORBID_SINGULO_POSSESSION
@@ -391,7 +391,7 @@ NOTIFY_NEW_PLAYER_ACCOUNT_AGE 30
 
 ## Deny all new connections by ckeys we haven't seen before (exempts admins and only denies the connection if the database is enabled and connected)
 ##	Requires database
-#PANIC_BUNKER
+PANIC_BUNKER
 
 ## Uncomment to enable the interview system for players who are below the living hour requirement instead of explicitly blocking them from the server
 ## Note this requires the PANIC_BUNKER to be enabled to do anything.
@@ -402,7 +402,8 @@ NOTIFY_NEW_PLAYER_ACCOUNT_AGE 30
 
 ## The message the Panic Bunker gives when someone is rejected by it
 ## %minutes% is replaced with PANIC_BUNKER_LIVING on runtime, remove it if you don't want this
-#PANIC_BUNKER_MESSAGE Sorry, but the server is currently not accepting connections from players with less than %minutes% minutes of living time.
+PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord.gg/AvjrTqnqEx
+
 
 ## If panic bunker is on and a player is rejected (see above), attempt to send them to this connected server (see below) instead.
 ##	You probably want this to be the same as CROSS_SERVER_ADDRESS
@@ -447,12 +448,12 @@ AUTOADMIN_RANK Game Master
 #AUTO_DEADMIN_TIMEGATE 600
 
 ## Uncomment to automatically deadmin antagonists when they gain the role.
-#AUTO_DEADMIN_ANTAGONISTS
+AUTO_DEADMIN_ANTAGONISTS
 
 ## Uncomment to automatically deadmin specific role sets when a player joins the game.
-#AUTO_DEADMIN_HEADS
-#AUTO_DEADMIN_SECURITY
-#AUTO_DEADMIN_SILICONS
+AUTO_DEADMIN_HEADS
+AUTO_DEADMIN_SECURITY
+AUTO_DEADMIN_SILICONS
 
 
 ## CLIENT VERSION CONTROL
@@ -555,7 +556,7 @@ DEFAULT_VIEW_SQUARE 15x15
 
 
 ## Enable automatic profiling - Byond 513.1506 and newer only.
-#AUTO_PROFILE
+AUTO_PROFILE
 
 ## Uncomment to enable global ban DB using the provided URL. The API should expect to receive a ckey at the end of the URL.
 ## More API details can be found here: https://centcom.melonmesa.com
@@ -580,7 +581,7 @@ CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
 #DISCORD_TOKEN someDiscordToken
 
 ## Add the ID of your guild (server) here
-#DISCORD_GUILDID 000000000000000000
+#DISCORD_GUILDID 1059199070016655462
 
 ## Add the ID of the role you want assigning here
 #DISCORD_ROLEID 000000000000000000
