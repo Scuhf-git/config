@@ -9,7 +9,7 @@
 		},
 
 		"Blood Brothers": {
-			"weight": 8,
+			"weight": 5,
 			"minimum_required_age": 14
 		},
 
@@ -46,7 +46,7 @@
 	"Midround": {
 		"Syndicate Sleeper Agent": {
 			"weight": 7,
-			"cost": 6,
+			"cost": 5,
 			"minimum_required_age": 14
 		},
 
@@ -106,7 +106,7 @@
 
 		"Space Ninja": {
 			"weight": 4,
-			"cost": 12,
+			"cost": 10,
 			"minimum_required_age": 14
 		},
 
@@ -115,20 +115,20 @@
 			"minimum_required_age": 14
 		},
 		"Obsessed": {
-			"cost": 5
+			"cost": 4
 		},
 		"Lone Infiltrator": {
-			"cost": 7
+			"cost": 6
 		},
 		"Drifting Contractor": {
-			"cost": 7
+			"cost": 6
 		}
 	},
 
 	"Latejoin": {
 		"Syndicate Infiltrator": {
 			"weight": 9,
-			"cost": 6,
+			"cost": 5,
 			"minimum_required_age": 14
 		},
 
@@ -140,7 +140,7 @@
 
 		"Heretic Smuggler": {
 			"weight": 5,
-			"cost": 8
+			"cost": 7,
 			"minimum_required_age": 14
 		}
 	}
