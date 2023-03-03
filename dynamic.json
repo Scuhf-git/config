@@ -139,8 +139,8 @@
 		},
 
 		"Heretic Smuggler": {
-			"weight": 5
-			"cost": 7
+			"weight": 5,
+			"cost": 7,
 			"minimum_required_age": 14
 		}
 	}
