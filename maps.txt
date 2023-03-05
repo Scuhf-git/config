@@ -22,6 +22,8 @@ map deltastation
 endmap
 
 map kilostation
+	votable
+	maxplayers 60
 endmap
 
 map icebox
