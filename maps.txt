@@ -24,7 +24,6 @@ map kilostation
 endmap
 
 map icebox
-	votable
 endmap
 
 map tramstation
