@@ -123,6 +123,9 @@
 		"Drifting Contractor": {
 			"cost": 7
 		}
+		"Paradox Clone": {
+			"weight": 0
+		}
 	},
 
 	"Latejoin": {
