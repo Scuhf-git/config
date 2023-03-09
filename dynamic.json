@@ -65,27 +65,28 @@
 			"weight": 1,
 			"cost": 14,
 			"minimum_required_age": 14,
-			"minimum_round_time": 27000
+			"minimum_round_time": 21000
 		},
 
 		"Blob": {
 			"weight": 1,
 			"cost": 12,
 			"minimum_required_age": 14,
-			"minimum_round_time": 27000
+			"minimum_round_time": 21000
+			"minimum_players": 35
 		},
 
 		"Blob Infection": {
 			"weight": 1,
 			"cost": 12,
 			"minimum_required_age": 14,
-			"minimum_round_time": 27000
+			"minimum_round_time": 21000
 		},
 
 		"Alien Infestation": {
 			"weight": 0,
 			"minimum_required_age": 14,
-			"minimum_round_time": 27000
+			"minimum_round_time": 21000
 		},
 
 		"Nightmare": {
@@ -96,7 +97,7 @@
 		"Space Dragon": {
 			"weight": 2,
 			"minimum_required_age": 14,
-			"minimum_round_time": 27000
+			"minimum_round_time": 21000
 		},
 
 		"Abductors": {
@@ -135,7 +136,7 @@
 		"Provocateur": {
 			"weight": 1,
 			"minimum_required_age": 14,
-			"minimum_round_time": 27000
+			"minimum_round_time": 21000
 		},
 
 		"Heretic Smuggler": {
