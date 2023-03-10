@@ -76,7 +76,7 @@
 		},
 
 		"Blob Infection": {
-			"weight": 1,
+			"weight": 0,
 			"cost": 12,
 			"minimum_required_age": 14,
 			"minimum_round_time": 21000
