@@ -113,7 +113,7 @@
 		"Spiders": {
 			"weight": 5,
 			"minimum_required_age": 14
-			"repeatable": FALSE
+			"repeatable": false
 		},
 		"Obsessed": {
 			"cost": 4
@@ -146,7 +146,7 @@
 			"weight": 4,
 			"cost": 7,
 			"minimum_required_age": 14
-			"repeatable": FALSE
+			"repeatable": false
 		}
 	}
 }
