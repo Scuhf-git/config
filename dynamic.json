@@ -46,7 +46,7 @@
 	"Midround": {
 		"Syndicate Sleeper Agent": {
 			"weight": 7,
-			"cost": 5,
+			"cost": 6,
 			"minimum_required_age": 14
 		},
 
