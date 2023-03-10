@@ -73,7 +73,7 @@
 			"cost": 12,
 			"minimum_required_age": 14,
 			"minimum_round_time": 21000
-			"minimum_players": 35
+			"minimum_players": 40
 		},
 
 		"Blob Infection": {
@@ -81,6 +81,7 @@
 			"cost": 12,
 			"minimum_required_age": 14,
 			"minimum_round_time": 21000
+			"minimum_players": 40
 		},
 
 		"Alien Infestation": {
