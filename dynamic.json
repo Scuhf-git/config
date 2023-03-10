@@ -65,7 +65,6 @@
 			"weight": 1,
 			"cost": 14,
 			"minimum_required_age": 14,
-			"minimum_round_time": 21000
 		},
 
 		"Blob": {
@@ -98,7 +97,6 @@
 		"Space Dragon": {
 			"weight": 1,
 			"minimum_required_age": 14,
-			"minimum_round_time": 21000
 		},
 
 		"Abductors": {
