@@ -32,6 +32,7 @@ endmap
 map tramstation
 	minplayers 35
 	voteweight 0.5
+	disabled
 endmap
 
 map runtimestation
