@@ -23,7 +23,3 @@ EspeciallyStrange = Game Admin
 Zetneskov = Admin Candidate
 Norse_4 = Admin Candidate
 Vinnymcvinvincumman = Admin Candidate
-Honkhonkbonk = Admin Candidate
-ApollosLights = Admin Candidate
-Heimy = Admin Candidate
-Cade_37 = Admin Candidate
