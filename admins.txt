@@ -15,6 +15,3 @@ vulfen = Game Admin
 IAmMelonhead = Game Admin
 Smytheguy = Game Admin
 Laetex = Game Admin
-Zetneskov = Trial Admin
-Norse_4 = Trial Admin
-Vinnymcvinvincumman = Trial Admin
