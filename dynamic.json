@@ -115,6 +115,7 @@
 			"minimum_required_age": 14
 		},
 		"Obsessed": {
+			"weight": 1,
 			"cost": 5
 		},
 		"Lone Infiltrator": {
