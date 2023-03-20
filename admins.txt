@@ -20,3 +20,6 @@ W0LF_101 = Game Admin
 bostonthebear = Game Admin
 alternate_parallaxis = Game Admin
 EspeciallyStrange = Game Admin
+Zetneskov = Admin Candidate
+Norse_4 = Admin Candidate
+Vinnymcvinvincumman = Admin Candidate
