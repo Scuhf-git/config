@@ -65,7 +65,19 @@
 		"Syndicate Sleeper Agent": {
 			"weight": 7,
 			"cost": 6,
-			"minimum_required_age": 14
+			"minimum_required_age": 14,
+			"requirements": [
+                101,
+                70,
+                50,
+                50,
+                40,
+                40,
+                30,
+                30,
+                20,
+                10
+            ]
 		},
 
 		"Malfunctioning AI": {
@@ -249,14 +261,14 @@
 			"minimum_required_age": 14,
 			"requirements": [
                 101,
-                101,
-                90,
-                80,
                 70,
                 50,
+                50,
+                40,
                 40,
                 30,
-                10,
+                30,
+                20,
                 10
             ]
 		},
@@ -265,14 +277,14 @@
 			"minimum_required_age": 14,
 			"requirements": [
                 101,
-                101,
-                90,
-                80,
                 70,
                 50,
+                50,
+                40,
                 40,
                 30,
-                10,
+                30,
+                20,
                 10
             ]
 		},
@@ -285,7 +297,19 @@
 		"Syndicate Infiltrator": {
 			"weight": 9,
 			"cost": 6,
-			"minimum_required_age": 14
+			"minimum_required_age": 14,
+			"requirements": [
+                101,
+                70,
+                50,
+                50,
+                40,
+                40,
+                30,
+                30,
+                20,
+                10
+			]
 		},
 
 		"Provocateur": {
