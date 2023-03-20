@@ -291,6 +291,10 @@
 		"Paradox Clone": {
 			"weight": 0
 		},
+		"Revenant": {
+			"weight": 2,
+			"cost": 5
+		},
 		"Space Pirates": {
 			"weight": 5,
 			"cost": 10,
