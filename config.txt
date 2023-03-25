@@ -504,7 +504,7 @@ MINUTE_CLICK_LIMIT 400
 ## i.e. CHAT_ANNOUNCE_NEW_GAME chat_channel_tag
 
 ## Send a message with the station name starting a new game.
-CHAT_ANNOUNCE_NEW_GAME server-status
+CHAT_ANNOUNCE_NEW_GAME serverstatus
 
 ## Ping users who use the `notify` command when a new game starts.
 CHAT_NEW_GAME_NOTIFICATIONS
