@@ -504,10 +504,10 @@ MINUTE_CLICK_LIMIT 400
 ## i.e. CHAT_ANNOUNCE_NEW_GAME chat_channel_tag
 
 ## Send a message with the station name starting a new game.
-#CHAT_ANNOUNCE_NEW_GAME
+CHAT_ANNOUNCE_NEW_GAME server-status
 
 ## Ping users who use the `notify` command when a new game starts.
-#CHAT_NEW_GAME_NOTIFICATIONS
+CHAT_NEW_GAME_NOTIFICATIONS
 
 ## Allow admin hrefs that don't use the new token system, will eventually be removed
 #DEBUG_ADMIN_HREFS
