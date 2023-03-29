@@ -10,17 +10,19 @@
 			"minimum_required_age": 14
 		},
 
-		"Blood Brothers": {
+		"Blood Brothers": {	
 			"weight": 8,
 			"minimum_required_age": 14
 		},
 
 		"Changelings": {
+			"cost": 20,
 			"weight": 5,
 			"minimum_required_age": 14
 		},
 
 		"Heretics": {
+			"cost": 12,
 			"weight": 5,
 			"minimum_required_age": 14
 		},
@@ -30,16 +32,19 @@
 		},
 
 		"Blood Cult": {
+			"cost": 40,
 			"weight": 3,
 			"minimum_required_age": 14
 		},
 
 		"Nuclear Emergency": {
+			"cost": 40,
 			"weight": 1,
 			"minimum_required_age": 14
 		},
 
 		"Revolution": {
+			"cost": 30,
 			"weight": 1,
 			"minimum_required_age": 14
 		},
@@ -105,7 +110,7 @@
 
 		"Nuclear Assault": {
 			"weight": 1,
-			"cost": 14,
+			"cost": 30,
 			"minimum_required_age": 14,
 			"minimum_round_time": 27000,
 			"requirements": [
@@ -123,9 +128,10 @@
 		},
 
 		"Blob": {
-			"weight": 1,
-			"cost": 12,
+			"weight": 2,
+			"cost": 30,
 			"minimum_required_age": 14,
+			"minimum_players": 40,
 			"minimum_round_time": 27000,
 			"requirements": [
                 101,
@@ -143,7 +149,8 @@
 
 		"Blob Infection": {
 			"weight": 1,
-			"cost": 12,
+			"cost": 30,
+			"minimum_players:" 40,
 			"minimum_required_age": 14,
 			"minimum_round_time": 27000,
 			"requirements": [
@@ -179,6 +186,7 @@
 		},
 
 		"Nightmare": {
+			"cost": 10,
 			"weight": 4,
 			"minimum_required_age": 14,
 			"requirements": [
@@ -196,8 +204,10 @@
 		},
 
 		"Space Dragon": {
+			"cost": 14,
 			"weight": 2,
 			"minimum_required_age": 14,
+			"minimum_players": 40,
 			"minimum_round_time": 27000,
 			"requirements": [
                 101,
@@ -214,6 +224,7 @@
 		},
 
 		"Abductors": {
+			"cost": 14,
 			"weight": 7,
 			"minimum_required_age": 14,
 			"requirements": [
@@ -232,7 +243,8 @@
 
 		"Space Ninja": {
 			"weight": 4,
-			"cost": 12,
+			"cost": 16,
+			"minimum_players": 35,
 			"minimum_required_age": 14,
 			"requirements": [
                 101,
@@ -277,7 +289,7 @@
 		},
 		"Revenant": {
 			"weight": 2,
-			"cost": 5
+			"cost": 10
 		},
 		"Lone Infiltrator": {
 			"cost": 7,
