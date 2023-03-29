@@ -10,7 +10,7 @@
 			"minimum_required_age": 14
 		},
 
-		"Blood Brothers": {	
+		"Blood Brothers": {
 			"weight": 8,
 			"minimum_required_age": 14
 		},
@@ -150,7 +150,7 @@
 		"Blob Infection": {
 			"weight": 1,
 			"cost": 30,
-			"minimum_players:" 40,
+			"minimum_players": 40,
 			"minimum_required_age": 14,
 			"minimum_round_time": 27000,
 			"requirements": [
