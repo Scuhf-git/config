@@ -47,7 +47,7 @@
 "Total Positions" = 1
 
 [BLUESHIELD]
-"Playtime Requirements" = 2400
+"Playtime Requirements" = 1200
 "Required Account Age" = 7
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -61,11 +61,11 @@
 [BOUNCER]
 "Playtime Requirements" = 180
 "Required Account Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+"Spawn Positions" = 0
+"Total Positions" = 0
 
 [CAPTAIN]
-"Playtime Requirements" = 2400
+"Playtime Requirements" = 1200
 "Required Account Age" = 14
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -155,13 +155,13 @@
 "Total Positions" = 2
 
 [HEAD_OF_PERSONNEL]
-"Playtime Requirements" = 2400
+"Playtime Requirements" = 1200
 "Required Account Age" = 14
 "Spawn Positions" = 1
 "Total Positions" = 1
 
 [HEAD_OF_SECURITY]
-"Playtime Requirements" = 2400
+"Playtime Requirements" = 1800
 "Required Account Age" = 21
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -182,7 +182,7 @@
 "Playtime Requirements" = 0
 "Required Account Age" = 0
 "Spawn Positions" = 3
-"Total Positions" = 4
+"Total Positions" = 3
 
 [MIME]
 "Playtime Requirements" = 0
@@ -191,7 +191,7 @@
 "Total Positions" = 1
 
 [NANOTRASEN_CONSULTANT]
-"Playtime Requirements" = 2400
+"Playtime Requirements" = 1800
 "Required Account Age" = 21
 "Spawn Positions" = 1
 "Total Positions" = 1
@@ -259,8 +259,8 @@
 [SECURITY_OFFICER]
 "Playtime Requirements" = 300
 "Required Account Age" = 0
-"Spawn Positions" = 6
-"Total Positions" = 6
+"Spawn Positions" = 4
+"Total Positions" = 4
 
 [SHAFT_MINER]
 "Playtime Requirements" = 0
