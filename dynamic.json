@@ -24,11 +24,13 @@
 		},
 
 		"Changelings": {
+			"cost": 20,
 			"weight": 5,
 			"minimum_required_age": 7
 		},
 
 		"Heretics": {
+			"cost": 12,
 			"weight": 5,
 			"minimum_required_age": 7
 		},
@@ -38,16 +40,19 @@
 		},
 
 		"Blood Cult": {
+			"cost": 40,
 			"weight": 3,
 			"minimum_required_age": 7
 		},
 
 		"Nuclear Emergency": {
+			"cost": 40,
 			"weight": 1,
 			"minimum_required_age": 7
 		},
 
 		"Revolution": {
+			"cost": 30,
 			"weight": 1,
 			"minimum_required_age": 7
 		},
@@ -113,7 +118,6 @@
 
 		"Nuclear Assault": {
 			"weight": 1,
-			"cost": 7,
 			"minimum_required_age": 7,
 			"minimum_round_time": 27000,
 			"requirements": [
@@ -132,8 +136,9 @@
 
 		"Blob": {
 			"weight": 1,
-			"cost": 12,
+			"cost": 30,
 			"minimum_required_age": 7,
+			"minimum_players": 40,
 			"minimum_round_time": 27000,
 			"requirements": [
                 101,
@@ -151,8 +156,9 @@
 
 		"Blob Infection": {
 			"weight": 1,
-			"cost": 12,
+			"cost": 34,
 			"minimum_required_age": 7,
+			"minimum_players": 40,
 			"minimum_round_time": 27000,
 			"requirements": [
                 101,
@@ -187,6 +193,7 @@
 		},
 
 		"Nightmare": {
+			"cost": 10,
 			"weight": 4,
 			"minimum_required_age": 7,
 			"requirements": [
@@ -204,8 +211,10 @@
 		},
 
 		"Space Dragon": {
+			"cost": 14,
 			"weight": 2,
 			"minimum_required_age": 7,
+			"minimum_players": 40,
 			"minimum_round_time": 27000,
 			"requirements": [
                 101,
@@ -222,6 +231,7 @@
 		},
 
 		"Abductors": {
+			"cost": 14,
 			"weight": 7,
 			"minimum_required_age": 7,
 			"requirements": [
