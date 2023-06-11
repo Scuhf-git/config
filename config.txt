@@ -17,22 +17,22 @@ $include lua.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-# SERVERNAME Bubberstation
+@SERVERNAME Bubberstation [18+, Furry RP with a touch of Antags]
 
 ## Server tagline: This will appear right below the server's title.
-# SERVERTAGLINE 18+ RP-focused action! Erratic or Erotic, take your pick!
+SERVERTAGLINE [Discord Whitelist] You're probably lost on the hub. Come sit around the warm fire with us.
 
 ## Discord Link: This is the link to Bubberstation's discord server
-# DISCORD_LINK https://discord.gg/AvjrTqnqEx
+@DISCORD_LINK https://discord.gg/bubberstation
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 # SERVERSQLNAME tgstation
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Space Station 13
+STATIONNAME Bubberstation 13
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
-#HUB
+HUB
 
 ## Once the server population reaches this number, it will be taken off the byond hub. 0 disables.
 #MAX_HUB_POP 100
@@ -46,7 +46,7 @@ ROUND_END_COUNTDOWN 120
 ## Comment this out if you want to use the SQL based admin system, the legacy system uses admins.txt.
 ## You need to set up your database to use the SQL based system.
 ## This flag is automatically enabled if SQL_ENABLED isn't
-ADMIN_LEGACY_SYSTEM
+#ADMIN_LEGACY_SYSTEM
 
 ##Uncomment this to stop any admins loaded by the legacy system from having their rank edited by the permissions panel
 #PROTECT_LEGACY_ADMINS
@@ -66,7 +66,7 @@ ENABLE_LOCALHOST_RANK
 ## REQUIRES the database set up to work. Keep it hashed if you don't have a database set up.
 ## NOTE: If you have just set-up the database keep this DISABLED, as player age is determined from the first time they connect to the server with the database up. If you just set it up, it means
 ## you have noone older than 0 days, since noone has been logged yet. Only turn this on once you have had the database up for 30 days.
-USE_AGE_RESTRICTION_FOR_JOBS
+#USE_AGE_RESTRICTION_FOR_JOBS
 
 ## Uncomment this to have the job system use the player's account creation date, rather than the when they first joined the server for job timers.
 #USE_ACCOUNT_AGE_FOR_JOBS
@@ -74,14 +74,14 @@ USE_AGE_RESTRICTION_FOR_JOBS
 ## Unhash this to track player playtime in the database. Requires database to be enabled.
 USE_EXP_TRACKING
 ## Unhash this to enable playtime requirements for head jobs.
-#USE_EXP_RESTRICTIONS_HEADS
+USE_EXP_RESTRICTIONS_HEADS
 ## Unhash this to override head jobs' playtime requirements with this number of hours.
 ## Leave this commented out to use the values defined in the job datums. Values in the datums are stored as minutes.
 #USE_EXP_RESTRICTIONS_HEADS_HOURS 3
 ## Unhash this to change head jobs' playtime requirements so that they're based on department playtime, rather than crew playtime.
-#USE_EXP_RESTRICTIONS_HEADS_DEPARTMENT
+USE_EXP_RESTRICTIONS_HEADS_DEPARTMENT
 ## Unhash this to enable playtime requirements for certain non-head jobs, like Engineer and Scientist.
-#USE_EXP_RESTRICTIONS_OTHER
+USE_EXP_RESTRICTIONS_OTHER
 ## Allows admins to bypass job playtime requirements.
 #USE_EXP_RESTRICTIONS_ADMIN_BYPASS
 ## Unhash this to have intern tags automatically added to ID cards for station roles depending on the living hours of the player holding them.
@@ -184,13 +184,13 @@ LOG_SPEECH_INDICATORS
 PICTURE_LOGGING_CAMERA
 
 ## period of time in seconds for players to be considered inactive
-# INACTIVITY_PERIOD 300
+INACTIVITY_PERIOD 1800
 
 ## period of time in seconds for players to be considered afk and kickable
-# AFK_PERIOD 600
+AFK_PERIOD 3600
 
 ## disconnect players who are considered afk
-# KICK_INACTIVE
+#KICK_INACTIVE
 
 ## Comment this out to stop admins being able to choose their personal ooccolor
 ALLOW_ADMIN_OOCCOLOR
@@ -232,7 +232,7 @@ DEFAULT_NO_VOTE
 #NORESPAWN
 
 ## set a hosted by name for unix platforms
-HOSTEDBY Yournamehere
+HOSTEDBY Moths, for moths
 
 ## Uncomment this to stop people connecting to your server without a registered ckey. (i.e. guest-* are all blocked from connecting)
 GUEST_BAN
@@ -281,7 +281,7 @@ RULESURL https://docs.google.com/document/d/1UFV2zNnApvolFLuxk8rxzLFNEXdLvaOw9Jt
 GITHUBURL https://github.com/Bubberstation/Bubberstation
 
 ## Discord bot command prefix, if the discord bot is used
-# DISCORDBOTCOMMANDPREFIX ?
+DISCORDBOTCOMMANDPREFIX ?
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -349,7 +349,7 @@ NOTE_FRESH_DAYS 91.31055
 NOTE_STALE_DAYS 365.2422
 
 ## Uncomment to allow drastic performence enhancemet measures to turn on automatically once there are equal or more clients than the configured amount (will also prompt admin for veto)
-#AUTO_LAG_SWITCH_POP 75
+AUTO_LAG_SWITCH_POP 100
 
 ##Note: all population caps can be used with each other if desired.
 
@@ -399,7 +399,7 @@ PANIC_BUNKER
 
 ## The message the Panic Bunker gives when someone is rejected by it
 ## %minutes% is replaced with PANIC_BUNKER_LIVING on runtime, remove it if you don't want this
-PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord.gg/AvjrTqnqEx
+PANIC_BUNKER_MESSAGE Please apply on Discord to get whitelisted! https://discord.gg/bubberstation
 
 
 ## If panic bunker is on and a player is rejected (see above), attempt to send them to this connected server (see below) instead.
@@ -504,10 +504,10 @@ MINUTE_CLICK_LIMIT 400
 ## i.e. CHAT_ANNOUNCE_NEW_GAME chat_channel_tag
 
 ## Send a message with the station name starting a new game.
-#CHAT_ANNOUNCE_NEW_GAME
+CHAT_ANNOUNCE_NEW_GAME serverstatus
 
 ## Ping users who use the `notify` command when a new game starts.
-#CHAT_NEW_GAME_NOTIFICATIONS
+CHAT_NEW_GAME_NOTIFICATIONS
 
 ## Allow admin hrefs that don't use the new token system, will eventually be removed
 #DEBUG_ADMIN_HREFS
@@ -572,22 +572,24 @@ CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
 ## Discord IDs can be obtained by following this guide: https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
 
 ## Uncomment to enable discord auto-roling when users link their BYOND and Discord accounts
-#ENABLE_DISCORD_AUTOROLE
+ENABLE_DISCORD_AUTOROLE
 
 ## Add your discord bot token here. Make sure it has the ability to manage roles
-#DISCORD_TOKEN someDiscordToken
+DISCORD_TOKEN MTA4NTEyNzc5MjExNjYzNzc5Nw.GOWIih.Dgg29N806Y1WPa1KSK3ClLRopNX2OTZV7fvRtY
+#^^Yes, we accidently commmited our Discord token to a public repo. It was invalidated very quickly, and is no longer useful, hence it may remain in git history.
+
 
 ## Add the ID of your guild (server) here
-#DISCORD_GUILDID 1059199070016655462
+DISCORD_GUILDID 1059199070016655462
 
 ## Add the ID of the role you want assigning here
-#DISCORD_ROLEID 000000000000000000
+DISCORD_ROLEID 1068999872751091773
 
 ## How long in seconds after which a hard delete is treated as causing lag. This can be a float and supports a precision as low as nanoseconds.
-#HARD_DELETES_OVERRUN_THRESHOLD 0.5
+HARD_DELETES_OVERRUN_THRESHOLD 0.5
 
 ## Once a typepath causes overrun from hard deletes this many times, stop hard deleting it on garbage collection failures. (set to 0 to disable)
-#HARD_DELETES_OVERRUN_LIMIT 0
+HARD_DELETES_OVERRUN_LIMIT 0
 
 ## The URL to the webhook for adminhelps to relay the urgent ahelp message to
 ## If not set, will disable urgent ahelps.
@@ -614,10 +616,10 @@ URGENT_AHELP_COOLDOWN 300
 #ADMINHELP_AHELP_LINK
 
 ## The URL for the pfp of the webhook
-#ADMINHELP_WEBHOOK_PFP
+https://imgur.com/a/rJCmPP7
 
 ## The name of the webhook
-#ADMINHELP_WEBHOOK_NAME
+Bubberbot
 
 ## Sets an MOTD of the server.
 ## You can use this multiple times, and the MOTDs will be appended in order.
@@ -642,7 +644,7 @@ CACHE_ASSETS 0
 PR_ANNOUNCEMENTS_PER_ROUND 5
 
 ## Uncomment to block all attempts to profile, for performance reasons
-#FORBID_ALL_PROFILING
+FORBID_ALL_PROFILING
 
 ## Uncomment to block granting profiling privileges to users with R_DEBUG, for performance purposes
 #FORBID_ADMIN_PROFILING
