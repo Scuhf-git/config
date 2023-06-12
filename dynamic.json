@@ -1,14 +1,14 @@
 {
 	"Dynamic": {
-		"pop_per_requirement": 10,
+		"pop_per_requirement": 7,
         "threat_per_midround_roll": 5,
         "midround_roll_distance": 3000,
-        "midround_upper_bound": 27000,
-        "midround_lower_bound": 54000,
+        "midround_upper_bound": 54000,
+        "midround_lower_bound": 6000,
         "max_threat_level": 100,
-        "hijacked_random_event_injection_chance_modifier": 5,
+        "hijacked_random_event_injection_chance_modifier": 10,
         "low_pop_maximum_threat": 20,
-        "latejoin_roll_chance": 25
+        "latejoin_roll_chance": 50
 	},
 	"Roundstart": {
 		"Traitors": {
@@ -24,13 +24,13 @@
 		},
 
 		"Changelings": {
-			"cost": 20,
+			"cost": 8,
 			"weight": 5,
 			"minimum_required_age": 7
 		},
 
 		"Heretics": {
-			"cost": 12,
+			"cost": 8,
 			"weight": 5,
 			"minimum_required_age": 7
 		},
@@ -40,19 +40,19 @@
 		},
 
 		"Blood Cult": {
-			"cost": 40,
+			"cost": 10,
 			"weight": 3,
 			"minimum_required_age": 7
 		},
 
 		"Nuclear Emergency": {
-			"cost": 40,
+			"cost": 10,
 			"weight": 1,
 			"minimum_required_age": 7
 		},
 
 		"Revolution": {
-			"cost": 30,
+			"cost": 10,
 			"weight": 1,
 			"minimum_required_age": 7
 		},
@@ -95,7 +95,7 @@
 
 		"Malfunctioning AI": {
 			"weight": 3,
-			"cost": 18,
+			"cost": 13,
 			"minimum_required_age": 7,
 			"requirements": [
                 101,
@@ -136,7 +136,7 @@
 
 		"Blob": {
 			"weight": 1,
-			"cost": 30,
+			"cost": 10,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
 			"minimum_round_time": 27000,
@@ -156,7 +156,7 @@
 
 		"Blob Infection": {
 			"weight": 1,
-			"cost": 34,
+			"cost": 10,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
 			"minimum_round_time": 27000,
@@ -211,7 +211,7 @@
 		},
 
 		"Space Dragon": {
-			"cost": 14,
+			"cost": 12,
 			"weight": 2,
 			"minimum_required_age": 7,
 			"minimum_players": 40,
@@ -231,7 +231,7 @@
 		},
 
 		"Abductors": {
-			"cost": 14,
+			"cost": 12,
 			"weight": 7,
 			"minimum_required_age": 7,
 			"requirements": [
