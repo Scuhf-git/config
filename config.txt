@@ -349,7 +349,7 @@ NOTE_FRESH_DAYS 91.31055
 NOTE_STALE_DAYS 365.2422
 
 ## Uncomment to allow drastic performence enhancemet measures to turn on automatically once there are equal or more clients than the configured amount (will also prompt admin for veto)
-AUTO_LAG_SWITCH_POP 100
+#AUTO_LAG_SWITCH_POP 100
 
 ##Note: all population caps can be used with each other if desired.
 
@@ -503,6 +503,8 @@ MINUTE_CLICK_LIMIT 400
 ## If using TGS4, the string option can be set as one of more chat channel tags (separated by ','s) to limit the message to channels with that tag name (case-sensitive). This will have no effect on TGS3.
 ## i.e. CHAT_ANNOUNCE_NEW_GAME chat_channel_tag
 
+#Zirok: To make things more clear: chat_channel_tag is supposed to be the same thing as the DMAPI tag in the webpanel, under discord bot config.
+
 ## Send a message with the station name starting a new game.
 CHAT_ANNOUNCE_NEW_GAME serverstatus
 
@@ -524,7 +526,7 @@ BASE_MC_TICK_RATE 1
 ##	will make it run every 2 byond ticks, but will also double the effect of anti-lag heuristics. You can instead set it to something like
 ##	1.1 to make it run every 2 byond ticks, but only increase the effect of anti-lag heuristics by 10%. or 1.5 for 50%.
 ##	(As an aside, you could in theory also reduce the effect of anti-lag heuristics in the base tick rate by setting it to something like 0.5)
-HIGH_POP_MC_TICK_RATE 1.1
+HIGH_POP_MC_TICK_RATE 1
 
 ##Engage high pop mode if player count raises above this (Player in this context means any connected user. Lobby, ghost or in-game all count)
 HIGH_POP_MC_MODE_AMOUNT 65
@@ -572,10 +574,10 @@ CENTCOM_BAN_DB https://centcom.melonmesa.com/ban/search
 ## Discord IDs can be obtained by following this guide: https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
 
 ## Uncomment to enable discord auto-roling when users link their BYOND and Discord accounts
-ENABLE_DISCORD_AUTOROLE
+#ENABLE_DISCORD_AUTOROLE
 
 ## Add your discord bot token here. Make sure it has the ability to manage roles
-DISCORD_TOKEN MTA4NTEyNzc5MjExNjYzNzc5Nw.GOWIih.Dgg29N806Y1WPa1KSK3ClLRopNX2OTZV7fvRtY
+#DISCORD_TOKEN MTA4NTEyNzc5MjExNjYzNzc5Nw.GOWIih.Dgg29N806Y1WPa1KSK3ClLRopNX2OTZV7fvRtY
 #^^Yes, we accidently commmited our Discord token to a public repo. It was invalidated very quickly, and is no longer useful, hence it may remain in git history.
 
 
@@ -632,7 +634,7 @@ MOTD motd.txt
 ## The cache is assumed to be cleared by TGS recompiling, which deletes `tmp`.
 ## This should be disabled (through `CACHE_ASSETS 0`) on development,
 ## but enabled on production (the default).
-CACHE_ASSETS 0
+CACHE_ASSETS 1
 
 ## Uncomment to allow the station name to be in the hub entry.
 ## You should only enable this if you can guarantee a station name doesn't break BYOND's TOS.
