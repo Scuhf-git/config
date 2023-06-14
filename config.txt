@@ -644,7 +644,7 @@ CACHE_ASSETS 0
 PR_ANNOUNCEMENTS_PER_ROUND 5
 
 ## Uncomment to block all attempts to profile, for performance reasons
-FORBID_ALL_PROFILING
+#FORBID_ALL_PROFILING
 
 ## Uncomment to block granting profiling privileges to users with R_DEBUG, for performance purposes
 #FORBID_ADMIN_PROFILING
