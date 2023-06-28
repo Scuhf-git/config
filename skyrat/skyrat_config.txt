@@ -136,3 +136,14 @@ TICKET_PING_FREQUENCY 3000
 
 ## Delay between newscasters making lore announcements, default is 18000 (30 minutes)
 LORECASTER_DELAY 18000
+
+## If uncommented, suicide will be disabled.
+#DISABLE_SUICIDE
+
+## Uncomment to enable minimum flavor text requirements for joining the round
+MIN_FLAVOR_TEXT
+
+## Minimum flavor text number needed to enter the game
+## YOU MUST HAVE MIN_FLAVOR_TEXT ENABLED FOR THIS TO WORK.
+## Don't ever set this to 0, just disable MIN_FLAVOR_TEXT
+FLAVOR_TEXT_CHARACTER_REQUIREMENT 150
