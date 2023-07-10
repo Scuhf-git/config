@@ -420,6 +420,9 @@ ROUNDSTART_RACES insect
 ROUNDSTART_RACES synth
 ROUNDSTART_RACES ghoul
 
+## BUBBER RACES DOWN THERE
+ROUNDSTART_RACES nabber
+
 ##-------------------------------------------------------------------------------------------
 
 ## Roundstart no-reset races
