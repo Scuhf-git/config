@@ -1,13 +1,14 @@
 {
 	"Dynamic": {
-		"pop_per_requirement": 7,
+		"pop_per_requirement": 10,
         "threat_per_midround_roll": 5,
         "midround_roll_distance": 3000,
         "midround_upper_bound": 54000,
         "midround_lower_bound": 6000,
-        "max_threat_level": 100,
+        "max_threat_level": 70,
         "hijacked_random_event_injection_chance_modifier": 10,
-        "low_pop_maximum_threat": 20,
+        "low_pop_player_threshold": 35,
+        "low_pop_maximum_threat": 10,
         "latejoin_roll_chance": 50
 	},
 	"Roundstart": {
@@ -351,6 +352,7 @@
 		"Syndicate Infiltrator": {
 			"weight": 7,
 			"cost": 6,
+            "scaling_cost": 6,
 			"minimum_required_age": 7
 		},
 
