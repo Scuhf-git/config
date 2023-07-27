@@ -51,6 +51,20 @@
 "furfaggot" = "You're literally on a furry server. Why? Go play TGstation or something."
 "furfaggit" = "You're literally on a furry server. Why? Go play TGstation or something."
 "blockedinshared" = "This message is not allowed anywhere, please use a different weird test phrase."
+"gook" = "This term is not allowed here"
+"zipperhead" = "This term is not allowed here"
+"rail-hopper" = "This term is not allowed here"
+"railhopper" = "This term is not allowed here"
+"panface" = "This term is not allowed here"
+"baby-muncher" = "This term is not allowed here"
+"babymuncher" = "This term is not allowed here"
+"towelhead" = "This term is not allowed here"
+"chinaman" = "This term is not allowed here"
+"jughead" = "This term is not allowed here"
+"黑鬼" = "NUH UH!"
+"heigui" = "Don't be sly with pinyin"
+"buddhahead" = "This term is not allowed here"
+"mudmonkey" = "This term is not allowed here"
 
 # Anything in here is blocked just from IC interactions, such as chat or names, but is allowed in dead chat and OOC
 [ic]
